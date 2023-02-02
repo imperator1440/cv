@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/iconsfont.css">
+    <title>Zero To Hero</title>
+  </head>
+  <body>
+        <div class="container">
+          <header class="header">
+            <div class="header__container">
+              <div class="header__content">
+                <div class="header__body">
+                  <div class="header__photo"><img class="header__avatar" src="/img/avatar.jpg" alt="avatar"></div>
+                  <div class="header__title">ZeroToHero</div>
+                  <div class="header__menu menu">
+                    <nav class="menu__body">
+                      <ul class="menu__list">
+                        <li class="menu__item"><a data-goto=".main" href="#" class="menu__link">Основная информация</a></li>
+                        <li class="menu__item"><a data-goto=".photo" href="#" class="menu__link">Фотографии</a></li>
+                        <li class="menu__item"><a data-goto=".education" href="#" class="menu__link">Образование</a></li>
+                        <li class="menu__item"><a data-goto=".facts" href="#" class="menu__link">Интересные факты</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="menu__icon">
+                    <span></span>
+                  </div>
+                  <div class="header__subtitle">CV</div>
+                </div>
+              </div>  
+            </div>
+          </header>
+          <main class="page">
+            <article class="cv">
+              <section class="section main">
+                <div class="section__title">-Основная информация-</div>
+                <div class="main-info">
+                  <div class="main-info__photo"><img class="main-info__avatar" src="/img/avatar.jpg" alt="avatar"></div>
+                  <div class="info">
+                    <div class="info__text info__name">Щербинский Арсений Игоревич</div>
+                    <div class="info__text">Мужчина, 22 года, родился 20 декабря 2000 года</div>
+                    <div class="info__text">Минск, Беларусь</div>    
+                    <div class="info__contacts info__text">
+                      <div class="info__title">Контакты:</div>
+                      <div class="info__text">
+                        <a href="tel:+375(29)608-49-36" class="info__contact _icon-mobile">+375(29)608-49-36</a>
+                      </div>
+                      <div class="info__text">
+                        <a href="mailto:imperator1440@gmail.com" class="info__contact _icon-mail">imperator1440@gmail.com</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>            
+              </section>
+              <section class="section photo">
+                <div class="section__title">-Фотографии-</div>
+                <div class="slider">
+                  <div class="slider__container">  
+                    <div class="slider__track">               
+                      <div class="slider__item"><img src="/img/img1.jpg" alt="photo"></div>
+                      <div class="slider__item"><img src="/img/img2.jpg" alt="photo"></div>
+                      <div class="slider__item"><img src="/img/img3.jpg" alt="photo"></div>
+                      <div class="slider__item"><img src="/img/img4.jpg" alt="photo"></div>
+                      <div class="slider__item"><img src="/img/img5.jpg" alt="photo"></div>
+                      <div class="slider__item"><img src="/img/img6.jpg" alt="photo"></div>                 
+                    </div>  
+                  </div>
+                  <div class="slider__buttons">
+                    <button class="button button-left _icon-circle-left"></button>
+                    <button class="button button-right _icon-circle-right"></button>
+                  </div>
+                </div>
+              </section>
+              <section class="section education">
+                <div class="section__title">-Образование-</div>
+                <div class="info">
+                  <div class="info__university">Белорусский государственный университет информатики и радиоэлектроники, Минск</div>
+                  <div class="info__text">КСиС(Компьютерные системы и сети), ВМСиС(Инженер-системотехник)</div>
+                  <div class="info__text">Год вупуска: 2022</div>
+                </div>
+              </section>
+              <section class="section facts">
+                <div class="section__title">-Интересные факты-</div>
+                <div class="tabs">
+                  <nav class="tabs__items">
+                    <a href="#tab_01" class="tabs__item">Факт#1</a>
+                    <a href="#tab_02" class="tabs__item">Факт#2</a>
+                    <a href="#tab_03" class="tabs__item">Факт#3</a>
+                  </nav>
+                  <div class="tabs__body">
+                    <div id="tab_01" class="tabs__block info__text">Факт#1. <br>Закончил музыкальную школу.</div>
+                    <div id="tab_02" class="tabs__block info__text">Факт#2. <br>Прошел курс "Математика и Python для анализа данных". (Yandex, MIPT, Data science).</div>
+                    <div id="tab_03" class="tabs__block info__text">Факт#3. <br>Права категории B.</div>                    
+                  </div>
+                </div>
+              </section>
+            </article>
+          </main>
+          <footer class="footer">
+            <div class="footer__title">
+              <div class="footer__text">Zero To Hero 2023</div>
+            </div>
+          </footer>
+        </div>
+    </div>
+    <script src="/js/menu.js"></script>
+    <script src="/js/slider.js"></script>
+  </body>
